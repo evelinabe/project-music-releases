@@ -1,13 +1,14 @@
 import React from 'react';
+import CoverImage from './Cover-image'
 
 const Card = () => {
     return (
         <>
             <CoverImage />
-            <AlbumName />
-            <ArtistName />
+             {/* <AlbumName />
+            <ArtistName />   */}
         </>
     );
 }
 
-export Card
+export default Card;
