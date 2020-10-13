@@ -1,13 +1,12 @@
 import React from 'react';
 import data from './data.json';
 
-const image = data.albums.items[0].images[1].url
-const CoverImage = () => {
+
+const CoverImage = (props) => {
     return (
-        <img src= {image}/>
+
+        <img src= {props.src}/>
     )
 }
 
 export default CoverImage;
-
-console.log (image); 
