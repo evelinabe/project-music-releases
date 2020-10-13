@@ -5,7 +5,7 @@ import data from './data.json';
 const CoverImage = (props) => {
     return (
 
-        <img src= {props.src}/>
+        <img src= {props.src} className="album-cover"/>
     )
 }
 
