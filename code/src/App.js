@@ -7,11 +7,14 @@ console.log(data)
 
 export const App = () => {
   return (
-    <div>
+    <>
       <PageTitle />
-      <Card />
-      
-    </div>
+      <div className="card-wrapper">
+        
+        <Card />
+        
+      </div>
+    </>
   )
 }
 

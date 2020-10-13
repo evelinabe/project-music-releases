@@ -5,9 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #000;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-title {
+  color: #fff;
+  text-align: center;
+}
+
+.card {
+  width: 300px;
+}
+
+.artist-name {
+  font-size: 14px;
+  font-family: 'Helvetica', sans-serif;
+  color: #A0A0A0;
+
+}
+
+.album-title {
+  font-size: 14px;
+  font-family: 'Helvetica', sans-serif;
+  color: #fff;
 }
