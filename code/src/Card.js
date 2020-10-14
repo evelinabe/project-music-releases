@@ -15,9 +15,9 @@ const Card = () => {
                 return (
                     <div className="card">
                         <CoverImage alt="Album" key={album.images[1].url} src={album.images[1].url} />
-                        <AlbumName key={album.name} name={album.name}/>
-                        <ArtistName key={album.artists[0].name} name={album.artists[0].name}/>
-                        <AlbumCoverOverlay />
+                        <AlbumName key={album.name} name={album.name} url={album.external_urls.spotify}/>
+                        <ArtistName key={album.artists[0].name} name={album.artists[0].name} url={album.artists[0].external_urls.spotify}/>
+                        <AlbumCoverOverlay /> 
                     </div>
                 )
             })}

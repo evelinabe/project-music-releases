@@ -5,12 +5,14 @@ const artistName = data.albums.items[0].artists[0].name;
 console.log(data.albums.items)
 const ArtistName = (props) => {
     return (
-        <h2 className="artist-name">
-            {props.name}
-        </h2>
+        <a href={props.url} >
+            <h2 className="artist-name">
+                {props.name}
+            </h2>
+        </a>
     )
 }
 
 export default ArtistName;
 
-console.log (artistName); 
+console.log(artistName); 

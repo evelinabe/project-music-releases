@@ -27,6 +27,15 @@ code {
 
 .card {
   width: 300px;
+ 
+}
+
+.card a{
+  text-decoration: none;
+}
+
+.card a:hover{
+  text-decoration: underline  #fff;
 }
 
 .album-cover {
@@ -55,6 +64,11 @@ code {
   height: 300px;
   background-color: rgba(0,0,0, .5);
   z-index: 10;
+}
+
+.hidden {
+  display: none;
+
 }
 
 .icon {
