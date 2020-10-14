@@ -1,8 +1,8 @@
 import React from 'react';
 import data from './data.json';
 
-// const artistName = data.albums.items[0].artists[0];
-const artistNames = data.albums.items[0].artists;
+const artistName = data.albums.items[0].artists[0];
+
 
 const ArtistName = (props) => {
     return (
