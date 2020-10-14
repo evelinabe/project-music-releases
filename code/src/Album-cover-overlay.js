@@ -5,21 +5,13 @@ import Dots from './icons/dots.svg';
 
 const AlbumCoverOverlay = () => {
 
-    const showIcons = e =>{
-        e.target.style.background='red';
-     }
-
     return (
-        <div  onMouseOver ={showIcons} className="album-cover-overlay">
-           
-            <img src={Heart} alt="heart-icon" className="heart-icon icon" />
-            <img src={Play} alt="play-icon" className="play-icon icon"/>
-            <img src= {Dots} alt="dots-icon" className="dots-icon icon" />
+        <div className="album-cover-overlay">
+            <img src={Heart} alt="heart-icon" className="heart-icon" />
+            <img src={Play} alt="play-icon" className="play-icon"/>
+            <img src= {Dots} alt="dots-icon" className="dots-icon" />
         </div>
     )
 }
-
-
-
 
 export default AlbumCoverOverlay;
