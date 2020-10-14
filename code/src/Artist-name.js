@@ -1,8 +1,37 @@
 import React from 'react';
 import data from './data.json';
 
-const artistName = data.albums.items[0].artists[0].name;
-console.log(data.albums.items)
+const artistName = data.albums.items[0].artists[0];
+const artistNames = data.albums.items[0].artists;
+
+const ArtistName = () => {
+    if (artistNames.lenght > 1) {
+        {artistNames.map(props => {
+            return (
+                <a href={props.url} >
+                    <h2 className="artist-name">
+                        {props.name}
+                    </h2>
+                </a>
+            )
+        })}
+    };
+
+    return (
+        <>
+            {artistName.map(props => {
+                return (
+                    <a href={props.url} >
+                        <h2 className="artist-name">
+                            {props.name}
+                        </h2>
+                    </a>
+            )
+        })}
+        </>
+    );
+};
+/*
 const ArtistName = (props) => {
     return (
         <a href={props.url} >
@@ -11,8 +40,6 @@ const ArtistName = (props) => {
             </h2>
         </a>
     )
-}
+}*/
 
 export default ArtistName;
-
-console.log(artistName); 
