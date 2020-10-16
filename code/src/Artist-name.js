@@ -3,8 +3,6 @@ import data from './data.json';
 
 // const artistName = data.albums.items[0].artists[0];
 
-// const albumsArray = data.albums.items;
-
 // const mappedArtistsArray = albumsArray.map((album) => {
 //     const artistsArray = album.artists;
 //     return artistsArray
@@ -13,15 +11,18 @@ import data from './data.json';
 
 const ArtistName = (props) => {
         return (
-            <>
-                <a href={props.url}>
-                    <h2 className="artist-name">
-                        {props.name}
-                    </h2>
+            props.artistsArray.map((artist, i) => {
+                return ( <a key={artist.id} href={artist.external_urls.spotify}>
+                    <p className="artist-name">
+                        {artist.name[i] ? artist.name.length ', ' : ''}
+                    </p>
                 </a>
-            </>
+           
+            ) 
+                    
+        }) 
         )
-}
+    }
         
 
 

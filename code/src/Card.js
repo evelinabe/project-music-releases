@@ -27,8 +27,7 @@ const Card = () => {
                         />
                         <ArtistName
                             key={album.artists[0].name}
-                            name={album.artists.map((artist) => { return artist.name })}
-                            url={album.artists.map((url) => {return url.external_urls.spotify})}
+                            artistsArray={album.artists}
                         />
                     </div>
                 )
