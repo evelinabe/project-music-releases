@@ -1,7 +1,5 @@
 import React from 'react';
-import data from './data.json';
 
-const albumName = data.albums.items[0].name;
 const AlbumName = (props) => {
     return (
         <a href={props.url} >

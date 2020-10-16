@@ -13,10 +13,9 @@ const Card = () => {
         <>
             {albumsArray.map((album) => {
                 return (
-                    <div className="card">
+                    <div className="card" key={album}>
                         <AlbumCoverOverlay />
                         <CoverImage
-                            alt="Album"
                             key={album.images[1].url}
                             src={album.images[1].url}
                         />
@@ -32,9 +31,7 @@ const Card = () => {
                     </div>
                 )
             })}
-
-        </>
-            
+        </>        
     );
 }
 
