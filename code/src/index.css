@@ -41,6 +41,9 @@ code {
   text-decoration: underline  #fff;
 }
 
+.artist-link {
+  display: inline-block;
+}
 .album-cover {
   position: relative;
 }
