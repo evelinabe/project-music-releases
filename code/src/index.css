@@ -16,17 +16,28 @@ code {
     monospace;
 }
 
+.page-title-wrapper {
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.page-title {
+  width: 95%;
+  margin-bottom: 0;
+  padding-bottom: 4px;
+  font-size: 24px;
+  color: #fff;
+  border-bottom: 1px solid rgba(128, 128, 128, .8);
+}
+
 .card-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   max-width: 1300px;
-}
-
-.page-title {
-  color: #fff;
-  text-align: center;
 }
 
 .card {
@@ -45,18 +56,20 @@ code {
   display: inline-block;
   margin-right: 5px;
 }
+
 .album-cover {
   position: relative;
 }
 
 .artist-name {
+  margin: 2px 0 35px;
   font-size: 14px;
   font-family: 'Helvetica', sans-serif;
   color: #A0A0A0;
-
 }
 
 .album-title {
+  margin-bottom: 0;
   font-size: 14px;
   font-family: 'Helvetica', sans-serif;
   color: #fff;
@@ -93,6 +106,12 @@ code {
 }
 
 @media screen and (min-width: 667px) {
+
+  .page-title {
+    margin-left: 35px;
+    font-size: 32px;
+  }
+
   .card-wrapper {
     flex-direction: row;
     flex-wrap: wrap;
