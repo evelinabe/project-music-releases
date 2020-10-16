@@ -14,7 +14,7 @@ const ArtistName = (props) => {
             props.artistsArray.map((artist, i) => {
                 return ( <a key={artist.id} href={artist.external_urls.spotify}>
                     <p className="artist-name">
-                        {artist.name[i] ? artist.name.length ', ' : ''}
+                        {i > 0 && i < 2 ?  artist.name + ', ' : artist.name}
                     </p>
                 </a>
            
