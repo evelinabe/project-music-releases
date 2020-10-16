@@ -1,12 +1,15 @@
 # Music Releases
-Replace this readme with your own information about your project.
 
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+The assignment was to build a music release site with react components.
 
 ## The problem
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+We started by building the component structure, used the .map function to map through the data and show the different cards with information.
+We used props to add the right data. In CSS we used flexbox to position our components. The page is responsive with different layout for mobile, tablet and desktop. 
+
+If we had more time we would've tried some black level requirements.
 
 ## View it live
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+Link to the published project: https://frosty-shirley-67a23d.netlify.app/
+
