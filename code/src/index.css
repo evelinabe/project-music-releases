@@ -43,6 +43,7 @@ code {
 
 .artist-link {
   display: inline-block;
+  margin-right: 5px;
 }
 .album-cover {
   position: relative;
