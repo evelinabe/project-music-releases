@@ -6,7 +6,6 @@ import data from './data.json';
 import AlbumCoverOverlay from './Album-cover-overlay'
 
 const albumsArray = data.albums.items;
-console.log(albumsArray)
 
 const Card = () => {
     return (
