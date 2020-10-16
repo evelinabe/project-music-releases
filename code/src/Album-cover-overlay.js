@@ -7,9 +7,9 @@ const AlbumCoverOverlay = () => {
 
     return (
         <div className="album-cover-overlay">
-            <img src={Heart} alt="heart-icon" className="heart-icon" />
-            <img src={Play} alt="play-icon" className="play-icon"/>
-            <img src= {Dots} alt="dots-icon" className="dots-icon" />
+                <img src={Heart} alt="heart-icon" className="heart-icon" />
+                <img src={Play} alt="play-icon" className="play-icon"/>
+                <img src= {Dots} alt="dots-icon" className="dots-icon" />    
         </div>
     )
 }
