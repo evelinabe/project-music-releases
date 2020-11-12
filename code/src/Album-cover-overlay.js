@@ -1,7 +1,8 @@
-import React from 'react';
-import Play from './icons/play.svg';
-import Heart from './icons/heart.svg';
-import Dots from './icons/dots.svg';
+import React from 'react'
+
+import Play from './icons/play.svg'
+import Heart from './icons/heart.svg'
+import Dots from './icons/dots.svg'
 
 const AlbumCoverOverlay = () => {
 
@@ -14,4 +15,4 @@ const AlbumCoverOverlay = () => {
     )
 }
 
-export default AlbumCoverOverlay;
+export default AlbumCoverOverlay

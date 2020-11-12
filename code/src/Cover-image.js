@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 
 const CoverImage = props => {
@@ -7,4 +7,4 @@ const CoverImage = props => {
     )
 }
 
-export default CoverImage;
+export default CoverImage

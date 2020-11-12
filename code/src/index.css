@@ -105,6 +105,10 @@ code {
   width: 30px;
 }
 
+.comma {
+  content: ',';
+}
+
 @media screen and (min-width: 667px) {
 
   .page-title {
